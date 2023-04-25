@@ -29,7 +29,7 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-    private Vector3 NewPosition(int wave){
+    private Vector3 NewPosition(){
         float spawnX = Random.Range(-9,9);
         float spawnZ = Random.Range(-6,6); 
         Vector3 randomPosition = new Vector3(spawnX, 3f, spawnZ);
